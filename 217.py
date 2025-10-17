@@ -9,6 +9,3 @@ class Solution(object):
         if seen[max(seen, key=seen.get)] >=2:
             return True
         return False
-
-sol = Solution()
-print(sol.containsDuplicate([1,2,3,1]))
