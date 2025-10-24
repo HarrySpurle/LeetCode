@@ -9,10 +9,5 @@ class Solution(object):
         while p1 < len(vals)-1 and p2 < len(vals):
             diff = diff + abs(vals[p1]- vals[p2])
             p1 += 1
-            p2 +=1
+            p2 += 1
         return diff
-
-        
-
-sol = Solution()
-print(sol.scoreOfString("hello"))
