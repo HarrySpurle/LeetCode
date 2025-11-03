@@ -15,5 +15,3 @@ var getSneakyNumbers = function(nums) {
     }
     return sneaky
 };
-
-console.log(getSneakyNumbers([1, 0, 0, 1]));
