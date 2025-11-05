@@ -16,7 +16,4 @@ class Solution(object):
                 repeats[maximum] = 0
             result.append(sum)
             currenti += 1
-        print(result)
-
-sol = Solution()
-sol.findXSum([1,1,2,2,3,4,2,3], 6, 2)
+        return result
