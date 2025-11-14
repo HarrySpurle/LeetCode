@@ -5,3 +5,4 @@ class Solution:
             distinct.append(distinct[-1] + distinct[-2])
         return distinct[n]
         
+    
